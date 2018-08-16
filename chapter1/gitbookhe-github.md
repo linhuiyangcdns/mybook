@@ -15,5 +15,7 @@
 
 ![](/assets/2360203761-59d26466c2e7b_articlex.png)
 
+那么这时候就需要创建一个Git仓库了。到GitHub创建一个空白的仓库，并复制`https`的git仓库地址。**注意必须使用https的因为GitBook Editor暂时不支持SSH**
+
 
 
