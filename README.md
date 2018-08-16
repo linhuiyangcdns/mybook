@@ -1,3 +1,6 @@
-# My Awesome Book
+# 编程学习
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+以前学的知识比较凌乱，从今天开始有规划的记录一下我的学习经历
+
+
+
