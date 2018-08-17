@@ -8,7 +8,7 @@
 
 买卖股票的最佳时机
 
-给定一个数组，它的第 _i_个元素是一支给定股票第_i_天的价格。
+给定一个数组，它的第 _i_个元素是一支给定股票第_i_天的价格。
 
 如果你最多只允许完成一笔交易（即买入和卖出一支股票），设计一个算法来计算你所能获取的最大利润。
 
@@ -26,7 +26,6 @@
 解释: 
 在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。
      注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格。
-
 ```
 
 **示例 2:**
@@ -45,10 +44,38 @@
 ---
 
 ```
- 
+class Solution:
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        tmp_list = [prices[i+1]-prices[i] for i in range(len(prices)-1)]
+        imax = 0
+        tmp = 0
+        for i in tmp_list:
+            if i + tmp > 0:
+                tmp  += i
+            else:
+                tmp = 0
+            imax = max(imax,tmp)
+        return imaxclass Solution:
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        tmp_list = [prices[i+1]-prices[i] for i in range(len(prices)-1)]
+        imax = 0
+        tmp = 0
+        for i in tmp_list:
+            if i + tmp > 0:
+                tmp  += i
+            else:
+                tmp = 0
+            imax = max(imax,tmp)
+        return imax
 ```
 
 
-
-        
 
