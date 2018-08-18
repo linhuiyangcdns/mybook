@@ -76,7 +76,8 @@ Context和forloop变量
         \# 必须是用户已登录我们才需要判断。
 
 ```
-        # 向前端传值说明用户是否收藏
+      from operation.models import UserFavorite
+      # 向前端传值说明用户是否收藏
         has_fav_teacher = False
         # 必须是用户已登录我们才需要判断。
         if request.user.is_authenticated:

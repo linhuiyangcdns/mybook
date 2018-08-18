@@ -14,3 +14,9 @@ class Course(models.Model):
 
 cj,zj,gj，如果我们想要的到文字’、等字段，需要采用`get_FOO_display`方法：
 
+```
+{{ obj.get_level_display}}
+```
+
+
+
