@@ -91,5 +91,40 @@ Context和forloop变量
 {% if has_fav_teacher %} 已收藏{% else %}收藏{% endif %}
 ```
 
+# 关闭Django模板的自动转义
+Django的模板中会对HTML标签和JS等语法标签进行自动转义，原因显而易见，这样是为了安全。但是有的时候我们可能不希望这些HTML元素被转义，比如我们做一个内容管理系统，后台添加的文章中是经过修饰的，这些修饰可能是通过一个类似于FCKeditor编辑加注了HTML修饰符的文本，如果自动转义的话显示的就是保护HTML标签的源文件。为了在Django中关闭HTML的自动转义有两种方式，如果是一个单独的变量我们可以通过过滤器“|safe”的方式告诉Django这段代码是安全的不必转义。比如：
+
+  ` <p>这行代表会被自动转义</p>: {{ data }}`
+
+
+```
+<p>这行代表不会被自动转义</p>: {{ data|safe }}
+```
+
+
+其中第二行我们关闭了Django的自动转义。
+我们还可以通过{%autoescape off%}的方式关闭整段代码的自动转义，比如下面这样：
+
+
+
+```
+{% autoescape off %}
+    Hello {{ name }}
+{% endautoescape %}
+```
+# 推荐
+
+
+```
+        # 取出标签找到标签相同的course
+        tag = course.tag
+        if tag:
+            # 从1开始否则会推荐自己
+            relate_courses = Course.objects.filter(tag=tag)[1:2]
+        else:
+            relate_courses = []
+```
+
+
 
 
