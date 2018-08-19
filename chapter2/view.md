@@ -10,7 +10,6 @@ install app中添加:
 
 ```
 'pure_pagination',
-
 ```
 
 可设置参数；
@@ -38,7 +37,7 @@ from django.shortcuts import render_to_response
 
 from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 
-	# 尝试获取页数参数
+    # 尝试获取页数参数
     try:
         page = request.GET.get('page', 1)
     except PageNotAnInteger:
@@ -60,7 +59,7 @@ from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 模板页面
 
 ```
-		 <div class="pageturn">
+         <div class="pageturn">
             <ul class="pagelist">
             {% if all_orgs.has_previous %}
              <li class="long"><a href="?{{ all_orgs.previous_page_number.querystring }}" >上一页</a></li>
@@ -82,6 +81,10 @@ from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
             </ul>
         </div>
 ```
+
+# get\_queryset, get\_context\_data和get\_object
+
+
 
 
 
