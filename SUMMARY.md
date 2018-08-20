@@ -16,4 +16,5 @@
 * [flask](flask.md)
   * [flask大型项目配置](flask/flaskda-xing-xiang-mu-config-py-de-pei-zhi.md)
   * [flask一些操作](flask/flaskzhong-jing-tai-wen-jian-de-guan-li.md)
+  * [flask\_sqlalchemy](flask/flasksqlalchemy.md)
 
