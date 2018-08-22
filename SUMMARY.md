@@ -20,4 +20,5 @@
   * [flask常遇到的错误](flask/flaskchang-yu-dao-de-cuo-wu.md)
   * [WTForms标准字段和验证函数](flask/wtformsbiao-zhun-zi-duan-he-yan-zheng-han-shu.md)
   * [在flask中使用验证码](flask/zai-flask-zhong-shi-yong-yan-zheng-ma.md)
+  * [flask flash消息闪现](flask/flask-flashxiao-xi-shan-xian.md)
 
