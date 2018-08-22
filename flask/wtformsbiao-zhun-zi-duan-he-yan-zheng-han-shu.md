@@ -2,9 +2,9 @@
 
 ### WTForms支持的HTML标准字段 {#wtforms支持的html标准字段}
 
-| 字段类型 |  |
+| 字段类型 | 说明 |
 | :--- | :--- |
-| StringField |  |
+| StringField | 文本字段 |
 | TextAreaField |  |
 | PasswordField |  |
 | HiddenField |  |
@@ -15,12 +15,12 @@
 | FloatField |  |
 | BooleanField |  |
 | RadioField |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| SelectField |  |
+| SelectMultipleField |  |
+| FileField |  |
+| SubmitField |  |
+| FormField |  |
+| FieldList |  |
 |  |  |
 
 
