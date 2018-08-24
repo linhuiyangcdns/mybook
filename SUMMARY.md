@@ -17,6 +17,7 @@
   * [flask大型项目配置](flask/flaskda-xing-xiang-mu-config-py-de-pei-zhi.md)
   * [flask一些操作](flask/flaskzhong-jing-tai-wen-jian-de-guan-li.md)
   * [flask\_sqlalchemy](flask/flasksqlalchemy.md)
+    * [最常用的SQLAlchemy列表型](flask/flasksqlalchemy/zui-chang-yong-de-sqlalchemy-lie-biao-xing.md)
   * [flask常遇到的错误](flask/flaskchang-yu-dao-de-cuo-wu.md)
   * [WTForms标准字段和验证函数](flask/wtformsbiao-zhun-zi-duan-he-yan-zheng-han-shu.md)
   * [在flask中使用验证码](flask/zai-flask-zhong-shi-yong-yan-zheng-ma.md)
