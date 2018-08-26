@@ -8,6 +8,7 @@
 | Float | float | 浮点数 |
 | Numeric | decimal.Decimal | 定点数 |
 | String | str | 变长字符串 |
+|  |  |  |
 | Text | str | 变长字符串，对较长或不限长度的字符串做了优化 |
 | Unicode | unicode | 变长Unicode字符串 |
 | UnicodeText | unicode | 变长Unicode字符串，对较长或不限长度的字符串做了优化 |
@@ -45,8 +46,6 @@
 # 表之间的关系
 
 ## 一对多
-
-
 
 
 
