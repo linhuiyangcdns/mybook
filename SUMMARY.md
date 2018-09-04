@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [前言](chapter1.md)
   * [gitbook和github](chapter1/gitbookhe-github.md)
+  * [虚拟环境等一些配置](chapter1/xu-ni-huan-jing-deng-yi-xie-pei-zhi.md)
 * [django](chapter2.md)
   * [django简介](chapter2/djangojian-jie.md)
   * [邮箱注册](chapter2/you-xiang-zhu-ce.md)
