@@ -1,14 +1,13 @@
 # sqlalchemy的级联删除
 
 ```
-
 class MyClass(Base):
     __tablename__ = 'mytable'
     id = Column(Integer, primary_key=True)
     children = relationship("MyOtherClass",
                     cascade="all, delete-orphan",
                     passive_deletes=True)
- 
+
 class MyOtherClass(Base):
     __tablename__ = 'myothertable'
     id = Column(Integer, primary_key=True)
@@ -25,9 +24,13 @@ class MyOtherClass(Base):
 
 3.`CASCADE`：级联删除。
 
+```
+cascade='all,delete,delete-orphan'
+```
+
 4.`SET NULL`：父表数据被删除，子表数据会设置为NULL。
 
-relationship关联时要加上passive\_deletes=True 
+relationship关联时要加上passive\_deletes=True
 
 外键要加上ondelete='CASCADE'
 
