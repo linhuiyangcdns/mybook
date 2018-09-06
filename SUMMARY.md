@@ -20,6 +20,7 @@
   * [flask\_sqlalchemy](flask/flasksqlalchemy.md)
     * [最常用的SQLAlchemy列表型](flask/flasksqlalchemy/zui-chang-yong-de-sqlalchemy-lie-biao-xing.md)
     * [sqlalchemy的级联删除](flask/flasksqlalchemy/sqlalchemyde-ji-lian-shan-chu.md)
+    * [backref和back\_populates](flask/flasksqlalchemy/backrefhe-back-populates.md)
   * [flask常遇到的错误](flask/flaskchang-yu-dao-de-cuo-wu.md)
   * [WTForms标准字段和验证函数](flask/wtformsbiao-zhun-zi-duan-he-yan-zheng-han-shu.md)
   * [在flask中使用验证码](flask/zai-flask-zhong-shi-yong-yan-zheng-ma.md)
