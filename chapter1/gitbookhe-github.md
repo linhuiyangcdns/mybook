@@ -17,9 +17,15 @@
 
 那么这时候就需要创建一个Git仓库了。到GitHub创建一个空白的仓库，并复制`https`的git仓库地址。**注意必须使用https的因为GitBook Editor暂时不支持SSH**
 
+ssh-keygen -t rsa -C "youremail@example.com创建SSH Key
 
 
 
 
 
+git remote rm origin删除o'rigin仓库
+
+git remote add origin xx 关联远程库
+
+git push origin master提交本地库到远程库
 
