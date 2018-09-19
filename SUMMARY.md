@@ -21,6 +21,7 @@
     * [最常用的SQLAlchemy列表型](flask/flasksqlalchemy/zui-chang-yong-de-sqlalchemy-lie-biao-xing.md)
     * [sqlalchemy的级联删除](flask/flasksqlalchemy/sqlalchemyde-ji-lian-shan-chu.md)
     * [backref和back\_populates](flask/flasksqlalchemy/backrefhe-back-populates.md)
+    * [SQLAlchemy基本操作和常用技巧](flask/flasksqlalchemy/sqlalchemyji-ben-cao-zuo-he-chang-yong-ji-qiao.md)
   * [flask常遇到的错误](flask/flaskchang-yu-dao-de-cuo-wu.md)
   * [WTForms标准字段和验证函数](flask/wtformsbiao-zhun-zi-duan-he-yan-zheng-han-shu.md)
   * [在flask中使用验证码](flask/zai-flask-zhong-shi-yong-yan-zheng-ma.md)
