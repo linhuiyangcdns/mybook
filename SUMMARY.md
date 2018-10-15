@@ -27,4 +27,9 @@
   * [WTForms标准字段和验证函数](flask/wtformsbiao-zhun-zi-duan-he-yan-zheng-han-shu.md)
   * [在flask中使用验证码](flask/zai-flask-zhong-shi-yong-yan-zheng-ma.md)
   * [flask flash消息闪现](flask/flask-flashxiao-xi-shan-xian.md)
+* html
+* [Jquery](jquery.md)
+  * [Jquery实现显示和隐藏的4种简单方式](jquery/jqueryshi-xian-xian-shi-he-yin-cang-de-4-zhong-jian-dan-fang-shi.md)
+* JavaScript
+* css
 
