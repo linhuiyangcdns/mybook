@@ -32,4 +32,6 @@
   * [Jquery实现显示和隐藏的4种简单方式](jquery/jqueryshi-xian-xian-shi-he-yin-cang-de-4-zhong-jian-dan-fang-shi.md)
 * JavaScript
 * css
+* [mysql](mysql.md)
+  * [mysql一些操作](mysql/mysqlyi-xie-cao-zuo.md)
 
