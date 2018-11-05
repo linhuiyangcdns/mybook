@@ -34,4 +34,5 @@
 * css
 * [mysql](mysql.md)
   * [mysql一些操作](mysql/mysqlyi-xie-cao-zuo.md)
+* [centos 命令](centos-ming-ling.md)
 
