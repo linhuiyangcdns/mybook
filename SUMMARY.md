@@ -35,4 +35,5 @@
 * [mysql](mysql.md)
   * [mysql一些操作](mysql/mysqlyi-xie-cao-zuo.md)
 * [centos 命令](centos-ming-ling.md)
+  * [nginx重启的几张方法](centos-ming-ling/nginxzhong-qi-de-ji-zhang-fang-fa.md)
 
