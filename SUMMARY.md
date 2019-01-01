@@ -35,6 +35,7 @@
 * [mysql](mysql.md)
   * [mysql一些操作](mysql/mysqlyi-xie-cao-zuo.md)
   * [Linux下mysql的远程连接](mysql/linuxxia-mysql-de-yuan-cheng-lian-jie.md)
+  * [mysql的grant命令](mysql/mysqlde-grant-ming-ling.md)
 * [centos 命令](centos-ming-ling.md)
   * [nginx重启的几张方法](centos-ming-ling/nginxzhong-qi-de-ji-zhang-fang-fa.md)
 * [网络连接](wang-luo-lian-jie.md)
