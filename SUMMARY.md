@@ -43,4 +43,7 @@
 * [thinkphp](thinkphp.md)
   * [apache的配置](thinkphp/apachede-pei-zhi.md)
   * [thinkphp目录](thinkphp/thinkphpmu-lu.md)
+  * [thinkphp字母函数介绍T/I/N/D/M/A/R/U](thinkphp/thinkphpzi-mu-han-shu-jie-shao-t-i-n-d-m-a-r-u.md)
+* [php](php.md)
+  * [php的一些问题总结](php/phpde-yi-xie-wen-ti-zong-jie.md)
 
