@@ -46,7 +46,7 @@ export PATH="/opt/STM/STLinux-2.3/devkit/sh4/bin:$PATH"
 
 ## 查看文件内容
 
-
+## 使用--prefix参数指定nginx安装的目录,make、make install安装
 
 
 
