@@ -40,6 +40,7 @@
 * [centos 命令](centos-ming-ling.md)
   * [nginx重启的几张方法](centos-ming-ling/nginxzhong-qi-de-ji-zhang-fang-fa.md)
   * [linux](centos-ming-ling/linux.md)
+  * [firewall和iptables](centos-ming-ling/firewallhe-iptables.md)
 * [网络连接](wang-luo-lian-jie.md)
   * [centos开启端口和防火墙](wang-luo-lian-jie/centoskai-qi-duan-kou-he-fang-huo-qiang.md)
 * [thinkphp](thinkphp.md)
