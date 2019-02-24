@@ -61,7 +61,7 @@ $ firewall-cmd --get-service
 查看重启后所有 Zones 级别中被允许的服务，即永久放行的服务  
 $ firewall-cmd --get-service --permanent
 
-2. 管理规则
+1. 管理规则
 
 \# firewall-cmd --panic-on \# 丢弃  
 \# firewall-cmd --panic-off \# 取消丢弃  
@@ -115,8 +115,8 @@ d. 端口转发
 
 \# firewall-cmd --zone=external --add-forward-port=port=22:proto=tcp:toport=2055:toaddr=192.168.1.100  
 以上都是一些常用方法，更多高级方法，请参考：  
-https://access.redhat.com/documentation/en-US/Red\_Hat\_Enterprise\_Linux/7/html/Security\_Guide/sec-Using\_Firewalls.html  
-https://fedoraproject.org/wiki/FirewallD安装它，只需
+[https://access.redhat.com/documentation/en-US/Red\_Hat\_Enterprise\_Linux/7/html/Security\_Guide/sec-Using\_Firewalls.html](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Security_Guide/sec-Using_Firewalls.html)  
+[https://fedoraproject.org/wiki/FirewallD安装它，只需](https://fedoraproject.org/wiki/FirewallD安装它，只需)
 
 \# yum install firewalld  
 如果需要图形界面的话，则再安装  
@@ -177,7 +177,7 @@ $ firewall-cmd --get-service
 查看重启后所有 Zones 级别中被允许的服务，即永久放行的服务  
 $ firewall-cmd --get-service --permanent
 
-2. 管理规则
+1. 管理规则
 
 \# firewall-cmd --panic-on \# 丢弃  
 \# firewall-cmd --panic-off \# 取消丢弃  
@@ -231,8 +231,10 @@ d. 端口转发
 
 \# firewall-cmd --zone=external --add-forward-port=port=22:proto=tcp:toport=2055:toaddr=192.168.1.100  
 以上都是一些常用方法，更多高级方法，请参考：  
-https://access.redhat.com/documentation/en-US/Red\_Hat\_Enterprise\_Linux/7/html/Security\_Guide/sec-Using\_Firewalls.html  
-https://fedoraproject.org/wiki/FirewallD
+[https://access.redhat.com/documentation/en-US/Red\_Hat\_Enterprise\_Linux/7/html/Security\_Guide/sec-Using\_Firewalls.html](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/Security_Guide/sec-Using_Firewalls.html)  
+[https://fedoraproject.org/wiki/FirewallD](https://fedoraproject.org/wiki/FirewallD)
 
 
+
+https://www.cnblogs.com/kreo/p/4368811.html  iptables防火墙安装使用
 
